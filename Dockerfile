@@ -5,3 +5,4 @@ RUN apk --no-cache add ruby ruby-json chromium chromium-chromedriver && \
     gem install -N selenium-webdriver && \
     apk del build-deps
 
+CMD ["/bin/sh", "-c", "sh"]
